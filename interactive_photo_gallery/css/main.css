@@ -1,0 +1,102 @@
+/********************
+		GENERAL
+*******************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	margin-top: 0;
+	text-align: center;
+	background-color: white;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/********************
+		INPUT
+*******************/
+input {
+	width: 300px;
+	height: 40px;
+	margin-top: 5px;
+	border: 2px solid;
+    border-radius: 5px;
+    border-color: lightgrey;
+    text-indent: 10px;
+}
+
+input[type=search] {
+	margin-top: 8px;
+}
+
+/********************
+	   GALLERY
+*******************/
+.gallery {
+ width: auto;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 80px;
+}
+
+img {
+	margin-bottom: 60px;
+	width: auto;
+	width: 80%;
+}
+
+ul {
+	padding-left: 0;
+}
+
+ul li{
+   display: inline-block;
+   list-style: none;
+}
+
+
+/********************
+    MEDIA QUERY
+*******************/
+@media (min-width: 1024px) {
+
+/*INPUT*/
+input {
+  width: 460px;
+}
+
+/*GALLERY*/
+.photo4,
+.photo8,
+.photo12 {
+	margin-right: -60px;
+}
+
+ul {
+	width: 980px;	
+	padding-left: 0;
+	margin: 0 auto;
+}
+
+li{
+   margin-right: 60px;
+   float: left;
+   display: inline;
+   list-style: none;
+}
+
+img {
+	width: 100%;
+}
+
+}
