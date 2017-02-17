@@ -36,7 +36,7 @@ input {
 }
 
 input[type=search] {
-	margin-top: 8px;
+	margin-top: 15px;
 }
 
 /********************
@@ -51,11 +51,14 @@ input[type=search] {
 
 img {
 	margin-bottom: 60px;
+	padding-right: 10px;
 	width: auto;
-	width: 80%;
+	width: 100%;
 }
 
 ul {
+
+	margin: 110px;
 	padding-left: 0;
 }
 
@@ -64,6 +67,9 @@ ul li{
    list-style: none;
 }
 
+.note {
+	font-style: italic;
+}
 
 /********************
     MEDIA QUERY
@@ -76,16 +82,10 @@ input {
 }
 
 /*GALLERY*/
-.photo4,
-.photo8,
-.photo12 {
-	margin-right: -60px;
-}
-
 ul {
-	width: 980px;	
-	padding-left: 0;
-	margin: 0 auto;
+	width: 80%;	
+	margin-left:auto;
+	margin-left: 180px;
 }
 
 li{
@@ -97,6 +97,8 @@ li{
 
 img {
 	width: 100%;
+	padding-right: 0;
 }
 
 }
+
